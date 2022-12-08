@@ -1,0 +1,14 @@
+
+5.
+print(len(dict1), len(list1), len(tuple1), len(set1))
+print(list1[0], tuple1[0])
+print(dict1['lion'])
+list1.insert(1,'rabbit')  # insert rabbit at index 1
+print(list1)
+list1.append('monkey')  # add monkey to the end of list1
+print(list1)
+tuple1.insert(1,'rabbit')  # insert rabbit at index 1 of tuple1
+print(tuple1)  # code brings an error as insert cannot be used with tuples because tuple are immutable
+list1.remove('rabbit')
+dict1['fish'] = 0
+print(dict1)

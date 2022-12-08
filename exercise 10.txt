@@ -1,0 +1,14 @@
+
+10.
+def random_list_summer(n):
+    k = []
+    p = 0
+    while len(k) < 15:
+        n = random.randrange(-100, 100)
+        k.append(n)
+    for i in range(len(k)):
+        p += k[i]
+    print(f"The random list is : {k}\nThe sum is: {p}")
+
+
+random_list_summer(15)

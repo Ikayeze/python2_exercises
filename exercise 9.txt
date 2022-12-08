@@ -1,0 +1,6 @@
+9
+family = ['john doe', 'tristam mcbride', 'baldwin preston', 'wally collins']
+def greet_fam(name):
+    print(f'hello {name}!')
+for i in family:
+    print(greet_fam(i))
