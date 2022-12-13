@@ -1,2 +1,9 @@
-x= lambda t: t **2
-print(x(5))
+
+12.
+x = lambda t: t**2
+my_list = [*range(5)]
+for i in my_list:
+    if x(i)%2 == 0:
+        print(x(i))
+    else:
+        print()
